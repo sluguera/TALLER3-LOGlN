@@ -1,0 +1,24 @@
+[33mcommit af9a7b1c8a3bfb0be2294b26a1b84f1b0db08b76[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 3c5032a 7f55209
+Author: Jhonny Sluguer Arana <j.aranaz@uniandes.edu.co>
+Date:   Mon Nov 11 21:35:29 2024 -0500
+
+    Merge branch 'main' of https://github.com/sluguera/TALLER3-LOGlN
+
+[33mcommit 3c5032a7199cebabfff537a4a25b0e0e69e3311a[m
+Author: Jhonny Sluguer Arana <j.aranaz@uniandes.edu.co>
+Date:   Mon Nov 11 21:33:09 2024 -0500
+
+    Actualizado el límite de ratones a 20 en BoaConstrictor
+
+[33mcommit 7f55209636eb0df5ad1e1f81401ac55c64edf922[m
+Author: Sluguer Arana <61297304+sluguera@users.noreply.github.com>
+Date:   Mon Nov 11 21:27:03 2024 -0500
+
+    Create README.md
+
+[33mcommit 5b63e23b85268937c32d6b783827d3c6e50fffff[m
+Author: Jhonny Sluguer Arana <j.aranaz@uniandes.edu.co>
+Date:   Mon Nov 11 21:17:46 2024 -0500
+
+    Talller 3 - Parte 2

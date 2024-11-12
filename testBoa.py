@@ -19,13 +19,16 @@ class TestBoaConstrictor(unittest.TestCase):
 
     def test_eat_mouse_limit(self):
         boa = BoaConstrictor(name="Boa1", weight=50.0, age=5, country="Brasil", taxes=10.0)
-        for _ in range(10):
+
+
+    # Alimenta a la boa hasta el límite permitido
+        for _ in range(20):
             boa.eat_mouse()
-        self.assertEqual(boa.eaten_mice, 10)
-        # Intenta alimentar más allá del límite y verifica que lanza un ValueError
-        with self.assertRaises(ValueError) as context:
-            boa.eat_mouse()
-            self.assertEqual(str(context.exception), "Demasiados Ratones!")
+        self.assertEqual(boa.eaten_mice, 20)  # Verifica que ha comido 10 ratones
+
+    # Intenta alimentar más allá del límite y verifica que lanza un ValueError con el mensaje correcto
+        with self.assertRaisesRegex(ValueError, "Demasiados Ratones!"):
+            boa.eat_mouse()  # Esta llamada debería lanzar el error "Demasiados Ratones!"
 
 
 if __name__ == "__main__":
